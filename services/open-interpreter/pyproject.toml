@@ -1,0 +1,13 @@
+[project]
+name = "open-interpreter-service"
+version = "0.1.0"
+description = "Open Interpreter microservice for AI-OS"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "httpx",
+    "open-interpreter>=0.1.0",
+]
